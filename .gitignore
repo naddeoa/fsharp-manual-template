@@ -1,0 +1,7 @@
+packages
+*.exe
+*.dll
+.vscode/
+.ionide/
+bin/
+obj/
