@@ -24,6 +24,7 @@
 - nuget is the package manager: https://www.nuget.org/downloads
 - nuget is available in repos but its old. Most things are run with `dotnet foo` but this is "self
 contained" and can be run directly like anything else: https://github.com/dotnet/cli/issues/6472
+- Apparently don't need to use nuget directly. You can use it through `dotnet` and have your project config be updated to actually use the new local package with `dotnet add package FSharp.Data`. https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
 - Not sure if I would ever use mono now
 - Make a project with `dotnet new console -lang f#`
 - Install dep with `nuget.exe install FSharp.Data`
