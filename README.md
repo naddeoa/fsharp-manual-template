@@ -29,8 +29,7 @@ contained" and can be run directly like anything else: https://github.com/dotnet
 - Install dep with `nuget.exe install FSharp.Data`
 - Build with `dotnet build`
 - Run with `dotnet run`
-- Need to manually update the .fsproj file to add dependencies from nuget with this. There isn't any
-documentation on the format here.
+- Need to manually update the .fsproj file to add dependencies from nuget with this. This is an MSBuild file. Docs at https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/web-deployment-in-the-enterprise/understanding-the-project-file
 ```xml
   <ItemGroup>
     <Reference Include="./FSharp.Data.3.3.2/lib/net45/FSharp.Data.dll" />
